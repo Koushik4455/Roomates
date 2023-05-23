@@ -50,25 +50,27 @@ const Monthly = () => {
           </thead>
           <tbody>
             {bill1
-              .filter((value) => {
-                if (searchName === "" && searchDate === "") {
-                  return value;
-                } else if (
-                  value.name.toLowerCase().includes(searchName.toLowerCase()) &&
-                  value.calender.includes(searchDate)
-                ) {
-                  return value;
-                }
-              })
-              .map((add) => (
-                <tr key={add.id}>
-                  <th scope="row">{add.id}</th>
-                  <td>{add.name}</td>
-                  <td>{add.calender}</td>
-                  <td>{add.textarea}</td>
-                  <td>{add.amount}</td>
-                </tr>
-              ))}
+  .filter((value) => {
+    if (searchName === "" && searchDate === "") {
+      return true; // Return true to include all items when no filters are applied
+    } else if (
+      value.name.toLowerCase().includes(searchName.toLowerCase()) &&
+      value.calender.includes(searchDate)
+    ) {
+      return true;
+    }
+    return false; // Return false if no conditions match
+  })
+  .map((add) => (
+    <tr key={add.id}>
+      <th scope="row">{add.id}</th>
+      <td>{add.name}</td>
+      <td>{add.calender}</td>
+      <td>{add.textarea}</td>
+      <td>{add.amount}</td>
+    </tr>
+  ))}
+
           </tbody>
         </table>
       </div>
