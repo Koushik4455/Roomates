@@ -1,0 +1,100 @@
+{
+  "user": [
+    {
+      "username": "Aijay",
+      "gmail": "Aijay@gmail.com",
+      "password": "12234",
+      "conformpassword": "122334",
+      "photo": "",
+      "id": 1
+    },
+    {
+      "username": "Santhosh",
+      "gmail": "Santhosh@gmail.com",
+      "password": "12345",
+      "conformpassword": "12345",
+      "photo": "",
+      "id": 2
+    },
+    {
+      "username": "Koushik",
+      "gmail": "koushikgaddam@gmail.com",
+      "password": "12341234",
+      "conformpassword": "12341234",
+      "photo": "",
+      "id": 3
+    }
+  ],
+  "add": [
+    {
+      "id": 1,
+      "name": "Aijay",
+      "calender": "22.05.2023",
+      "textarea": "Sample",
+      "amount": "0"
+    },
+    {
+      "name": "Santhosh",
+      "calender": "2023-05-22",
+      "textarea": "sample",
+      "amount": "0",
+      "id": 2
+    },
+    {
+      "name": "koushik",
+      "calender": "2023-05-22",
+      "textarea": "sample",
+      "amount": "0",
+      "id": 3
+    },
+    {
+      "name": "Aijay",
+      "calender": "2023-05-22",
+      "textarea": "sample",
+      "amount": "0",
+      "id": 4
+    },
+    {
+      "name": "Aijay",
+      "calender": "2023-05-18",
+      "textarea": "dsgds",
+      "amount": "0",
+      "id": 5
+    },
+    {
+      "name": "Aijay",
+      "calender": "2023-05-16",
+      "textarea": "dsgfds",
+      "amount": "0",
+      "id": 6
+    },
+    {
+      "name": "Koushik",
+      "calender": "2023-05-16",
+      "textarea": "sdds",
+      "amount": "0",
+      "id": 7
+    },
+    {
+      "name": "Aijay",
+      "calender": "2023-05-23",
+      "textarea": "wsw",
+      "amount": "0",
+      "id": 8
+    },
+    {
+      "name": "Aijay",
+      "calender": "2023-05-23",
+      "textarea": "sws",
+      "amount": "0",
+      "id": 9
+    },
+    {
+      "name": "Aijay",
+      "calender": "2023-06-09",
+      "textarea": "ed",
+      "amount": "0",
+      "id": 10
+    }
+  ]
+}
